@@ -2,27 +2,34 @@ html{ font-family: sans-seirf;
 }
 
 a{
-  color:#CFBDF2;
+  color: plum;
   font-weight: bold;
-}
-
-a:hover {
-  color: orange;
-  text-decoration: none;
+  text-shadow: 2px 2px 2px black;
 }
 
 p{
   width: 200px;
   height: 80px;
   text-align: center;
+  margin: auto;
   line-height: 4;
   font-size: 1.125rem;
-  background: linear-gradient (to bottom, rgba(0,0,0,0.5),
+  /* One rem is 16 px so I increased it to be about 17px*/
+  background: linear-gradient(to top left, rgba(0,0,0,0.2),
   rgba(0,0,0,0.2)30%, rgba(0,0,0,0));
-  background-color:#CFBDF2;
-  color:#CFBDF2;
-  text-shadow: 2px 2px 2px black;
-  border: 1px solid #9F91ED;
-  border-radius: 1px;
-  box-shadow: 1px 1px 1px 1px black;
+  border: 1px solid orchid;
+  background-color: plum;
+  border-radius: 2px;
+  box-shadow: 0.5px 0.5px 0.5px black;
+}
+
+a:hover {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+p:hover {
+  text-decoration: none;
+  background-color:paleturquoise;
+  border:1px solid aquamarine;
 }
