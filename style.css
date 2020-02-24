@@ -5,6 +5,7 @@ a{
   color: plum;
   font-weight: bold;
   text-shadow: 2px 2px 2px black;
+  box-shadow: 1px 1px 1px 1px black;
 }
 
 p{
@@ -19,7 +20,7 @@ p{
   rgba(0,0,0,0.2)30%, rgba(0,0,0,0));
   border: 1px solid orchid;
   background-color: plum;
-  border-radius: 2px;
+  border-radius: px;
   box-shadow: 1px 1px 1px 1px black;
 }
 
